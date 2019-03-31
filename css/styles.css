@@ -3,6 +3,7 @@ html{
  background: linear-gradient(to right, rgb(67, 198, 172), rgb(248, 255, 174));
  background: #eee;
  background: url('https://cdn.dribbble.com/users/103148/screenshots/5813841/mark-spica-dribble.jpg');
+     background-size: contain;
 }
 
 body {
