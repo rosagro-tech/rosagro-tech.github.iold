@@ -39,3 +39,19 @@ video#video-bg {
     top: 150px;
     left: 75px;
 }
+.box_2 {
+    width: 2em;
+    height: 2em;
+    background-color: #9c27b080;
+    position: absolute;
+    top: 250px;
+    left: 75px;
+}
+.box_3 {
+    width: 2em;
+    height: 2em;
+    background-color: #9c27b080;
+    position: absolute;
+    top: 350px;
+    left: 75px;
+}
