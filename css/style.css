@@ -69,6 +69,15 @@ video#video-bg {
     left: 75px;
 }
 
+.box_4 {
+    width: 2em;
+    height: 2em;
+    background-color: #9c27b080;
+    position: absolute;
+    top: 550px;
+    left: 75px;
+}
+
 
 .lab {
     position: relative;
