@@ -23,3 +23,5 @@ video#video-bg {
     opacity: 0.75;
     border-radius: 20px;
 }
+::-webkit-scrollbar{
+    width: 0px;}
