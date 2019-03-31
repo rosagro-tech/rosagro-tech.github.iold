@@ -8,7 +8,7 @@ body {
   font-family: 'Press Start 2P', cursive;
 }
 .tech {
-text-align: center;
+    text-align: center;
     top: 3em;
     color: #fff;
     position: relative;
@@ -34,8 +34,8 @@ video#video-bg {
 .box_1 {
     width: 2em;
     height: 2em;
-    background-color: aliceblue;
+        background-color: #9c27b080;
     position: absolute;
-    top: 50px;
+    top: 150px;
     left: 75px;
 }
