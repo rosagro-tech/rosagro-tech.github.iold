@@ -30,7 +30,7 @@ video#video-bg {
 }
 ::-webkit-scrollbar{
     width: 0px;}
-
+.ii{color:red;}
 .box_1 {
     width: 2em;
     height: 2em;
