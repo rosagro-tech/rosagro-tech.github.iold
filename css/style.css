@@ -28,3 +28,12 @@ video#video-bg {
 }
 ::-webkit-scrollbar{
     width: 0px;}
+
+.box_1 {
+    width: 2em;
+    height: 2em;
+    background-color: aliceblue;
+    position: absolute;
+    top: 50px;
+    left: 75px;
+}
