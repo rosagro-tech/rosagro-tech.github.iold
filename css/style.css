@@ -11,6 +11,7 @@ body {
     color: white;
     position: relative;
 }
+
 video#video-bg {
     position: absolute;
     left: 0;
