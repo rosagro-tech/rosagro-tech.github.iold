@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+html{  background:grey;}
 body {
   font-family: 'Press Start 2P', cursive;
 }
 .tech {
   text-align: center;
+      margin-top: 3em;
+  color:white;
 }
