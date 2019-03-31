@@ -24,8 +24,8 @@ video#video-bg {
     /* height: 11%; */
     top: 70px;
     z-index: -14;
-    padding: 15px;
-    opacity: 0.75;
+    padding: 0px;
+    opacity: 0.35;
     border-radius: 20px;
 }
 ::-webkit-scrollbar{
