@@ -12,7 +12,8 @@ body {
     top: 3em;
     color: #fff;
     position: relative;
-    background-color: #ffffff8a;
+   /* background-color: #ffffff8a; */
+    background-color:linear-gradient(to right,rgba(67, 198, 172, 0),rgb(255, 255, 255))
     padding: 30px;
     border-radius: 5px;
 }
