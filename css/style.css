@@ -69,12 +69,20 @@ video#video-bg {
     left: 75px;
 }
 
-.box_4 {
+.box_5 {
     width: 2em;
     height: 2em;
     background-color: #9c27b080;
     position: absolute;
     top: 550px;
+    left: 75px;
+}
+.box_6 {
+    width: 2em;
+    height: 2em;
+    background-color: #9c27b080;
+    position: absolute;
+    top: 650px;
     left: 75px;
 }
 
