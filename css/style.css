@@ -6,10 +6,13 @@ body {
   font-family: 'Press Start 2P', cursive;
 }
 .tech {
-  text-align: center;
+text-align: center;
     top: 3em;
-    color: white;
+    color: #fff;
     position: relative;
+    background-color: #ffffff8a;
+    padding: 30px;
+    border-radius: 5px;
 }
 
 video#video-bg {
