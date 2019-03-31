@@ -6,7 +6,8 @@ html{
 }
 body {
   margin: 0;
-  background: #eee;
+ /* background: #eee;*/
+ background:#ffffff87;
   font-family: 'Press Start 2P', cursive;
 }
 .tech {
