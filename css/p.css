@@ -1,0 +1,1480 @@
+/*** <--- CONTAINER ---> ***/
+body {
+  font-size: 16px;
+  overflow: hidden;
+  background: #556270;
+  -webkit-animation: changeBg 60s infinite alternate;
+          animation: changeBg 60s infinite alternate;
+}
+
+@-webkit-keyframes changeBg {
+  0% {
+    background: #556270;
+  }
+  33.33333333% {
+    background: #7FB069;
+  }
+  66.66666666% {
+    background: #FF7644;
+  }
+}
+
+@keyframes changeBg {
+  0% {
+    background: #556270;
+  }
+  33.33333333% {
+    background: #7FB069;
+  }
+  66.66666666% {
+    background: #FF7644;
+  }
+}
+/*** <--- PARTICLES ---> ***/
+.bottom-particles {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.bottom-particles .bubble {
+  opacity: 0;
+  position: absolute;
+  bottom: -1rem;
+  width: 1rem;
+  height: 1rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+.bottom-particles .bubble:nth-child(1) {
+  left: 27%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 1950ms;
+          animation-delay: 1950ms;
+}
+.bottom-particles .bubble:nth-child(2) {
+  left: 41%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 5775ms;
+          animation-delay: 5775ms;
+}
+.bottom-particles .bubble:nth-child(3) {
+  left: 60%;
+  -webkit-animation: blow 9035ms infinite;
+          animation: blow 9035ms infinite;
+  -webkit-animation-delay: 4379ms;
+          animation-delay: 4379ms;
+}
+.bottom-particles .bubble:nth-child(4) {
+  left: 21%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 2953ms;
+          animation-delay: 2953ms;
+}
+.bottom-particles .bubble:nth-child(5) {
+  left: 79%;
+  -webkit-animation: blow 5453ms infinite;
+          animation: blow 5453ms infinite;
+  -webkit-animation-delay: 2649ms;
+          animation-delay: 2649ms;
+}
+.bottom-particles .bubble:nth-child(6) {
+  left: 78%;
+  -webkit-animation: blow 9024ms infinite;
+          animation: blow 9024ms infinite;
+  -webkit-animation-delay: 3544ms;
+          animation-delay: 3544ms;
+}
+.bottom-particles .bubble:nth-child(7) {
+  left: 49%;
+  -webkit-animation: blow 8206ms infinite;
+          animation: blow 8206ms infinite;
+  -webkit-animation-delay: 1394ms;
+          animation-delay: 1394ms;
+}
+.bottom-particles .bubble:nth-child(8) {
+  left: 29%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 11162ms;
+          animation-delay: 11162ms;
+}
+.bottom-particles .bubble:nth-child(9) {
+  left: 100%;
+  -webkit-animation: blow 13572ms infinite;
+          animation: blow 13572ms infinite;
+  -webkit-animation-delay: 9582ms;
+          animation-delay: 9582ms;
+}
+.bottom-particles .bubble:nth-child(10) {
+  left: 53%;
+  -webkit-animation: blow 5366ms infinite;
+          animation: blow 5366ms infinite;
+  -webkit-animation-delay: 11555ms;
+          animation-delay: 11555ms;
+}
+.bottom-particles .bubble:nth-child(11) {
+  left: 99%;
+  -webkit-animation: blow 10754ms infinite;
+          animation: blow 10754ms infinite;
+  -webkit-animation-delay: 9879ms;
+          animation-delay: 9879ms;
+}
+.bottom-particles .bubble:nth-child(12) {
+  left: 93%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 4112ms;
+          animation-delay: 4112ms;
+}
+.bottom-particles .bubble:nth-child(13) {
+  left: 1%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 8172ms;
+          animation-delay: 8172ms;
+}
+.bottom-particles .bubble:nth-child(14) {
+  left: 19%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 10980ms;
+          animation-delay: 10980ms;
+}
+.bottom-particles .bubble:nth-child(15) {
+  left: 64%;
+  -webkit-animation: blow 14920ms infinite;
+          animation: blow 14920ms infinite;
+  -webkit-animation-delay: 7224ms;
+          animation-delay: 7224ms;
+}
+.bottom-particles .bubble:nth-child(16) {
+  left: 79%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 1771ms;
+          animation-delay: 1771ms;
+}
+.bottom-particles .bubble:nth-child(17) {
+  left: 7%;
+  -webkit-animation: blow 9384ms infinite;
+          animation: blow 9384ms infinite;
+  -webkit-animation-delay: 6111ms;
+          animation-delay: 6111ms;
+}
+.bottom-particles .bubble:nth-child(18) {
+  left: 43%;
+  -webkit-animation: blow 6745ms infinite;
+          animation: blow 6745ms infinite;
+  -webkit-animation-delay: 5327ms;
+          animation-delay: 5327ms;
+}
+.bottom-particles .bubble:nth-child(19) {
+  left: 68%;
+  -webkit-animation: blow 5368ms infinite;
+          animation: blow 5368ms infinite;
+  -webkit-animation-delay: 3496ms;
+          animation-delay: 3496ms;
+}
+.bottom-particles .bubble:nth-child(20) {
+  left: 12%;
+  -webkit-animation: blow 14990ms infinite;
+          animation: blow 14990ms infinite;
+  -webkit-animation-delay: 2391ms;
+          animation-delay: 2391ms;
+}
+.bottom-particles .bubble:nth-child(21) {
+  left: 84%;
+  -webkit-animation: blow 13736ms infinite;
+          animation: blow 13736ms infinite;
+  -webkit-animation-delay: 8467ms;
+          animation-delay: 8467ms;
+}
+.bottom-particles .bubble:nth-child(22) {
+  left: 5%;
+  -webkit-animation: blow 5587ms infinite;
+          animation: blow 5587ms infinite;
+  -webkit-animation-delay: 2651ms;
+          animation-delay: 2651ms;
+}
+.bottom-particles .bubble:nth-child(23) {
+  left: 53%;
+  -webkit-animation: blow 11225ms infinite;
+          animation: blow 11225ms infinite;
+  -webkit-animation-delay: 8063ms;
+          animation-delay: 8063ms;
+}
+.bottom-particles .bubble:nth-child(24) {
+  left: 2%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 8514ms;
+          animation-delay: 8514ms;
+}
+.bottom-particles .bubble:nth-child(25) {
+  left: 33%;
+  -webkit-animation: blow 11957ms infinite;
+          animation: blow 11957ms infinite;
+  -webkit-animation-delay: 3776ms;
+          animation-delay: 3776ms;
+}
+.bottom-particles .bubble:nth-child(26) {
+  left: 6%;
+  -webkit-animation: blow 7995ms infinite;
+          animation: blow 7995ms infinite;
+  -webkit-animation-delay: 4871ms;
+          animation-delay: 4871ms;
+}
+.bottom-particles .bubble:nth-child(27) {
+  left: 3%;
+  -webkit-animation: blow 14473ms infinite;
+          animation: blow 14473ms infinite;
+  -webkit-animation-delay: 2413ms;
+          animation-delay: 2413ms;
+}
+.bottom-particles .bubble:nth-child(28) {
+  left: 54%;
+  -webkit-animation: blow 13533ms infinite;
+          animation: blow 13533ms infinite;
+  -webkit-animation-delay: 546ms;
+          animation-delay: 546ms;
+}
+.bottom-particles .bubble:nth-child(29) {
+  left: 88%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 2862ms;
+          animation-delay: 2862ms;
+}
+.bottom-particles .bubble:nth-child(30) {
+  left: 2%;
+  -webkit-animation: blow 8642ms infinite;
+          animation: blow 8642ms infinite;
+  -webkit-animation-delay: 4978ms;
+          animation-delay: 4978ms;
+}
+.bottom-particles .bubble:nth-child(31) {
+  left: 85%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 1432ms;
+          animation-delay: 1432ms;
+}
+.bottom-particles .bubble:nth-child(32) {
+  left: 7%;
+  -webkit-animation: blow 14883ms infinite;
+          animation: blow 14883ms infinite;
+  -webkit-animation-delay: 4693ms;
+          animation-delay: 4693ms;
+}
+.bottom-particles .bubble:nth-child(33) {
+  left: 23%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 11103ms;
+          animation-delay: 11103ms;
+}
+.bottom-particles .bubble:nth-child(34) {
+  left: 100%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 11200ms;
+          animation-delay: 11200ms;
+}
+.bottom-particles .bubble:nth-child(35) {
+  left: 47%;
+  -webkit-animation: blow 10403ms infinite;
+          animation: blow 10403ms infinite;
+  -webkit-animation-delay: 2823ms;
+          animation-delay: 2823ms;
+}
+.bottom-particles .bubble:nth-child(36) {
+  left: 100%;
+  -webkit-animation: blow 11059ms infinite;
+          animation: blow 11059ms infinite;
+  -webkit-animation-delay: 6450ms;
+          animation-delay: 6450ms;
+}
+.bottom-particles .bubble:nth-child(37) {
+  left: 73%;
+  -webkit-animation: blow 8544ms infinite;
+          animation: blow 8544ms infinite;
+  -webkit-animation-delay: 4449ms;
+          animation-delay: 4449ms;
+}
+.bottom-particles .bubble:nth-child(38) {
+  left: 89%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 10873ms;
+          animation-delay: 10873ms;
+}
+.bottom-particles .bubble:nth-child(39) {
+  left: 28%;
+  -webkit-animation: blow 12989ms infinite;
+          animation: blow 12989ms infinite;
+  -webkit-animation-delay: 9768ms;
+          animation-delay: 9768ms;
+}
+.bottom-particles .bubble:nth-child(40) {
+  left: 49%;
+  -webkit-animation: blow 10694ms infinite;
+          animation: blow 10694ms infinite;
+  -webkit-animation-delay: 3387ms;
+          animation-delay: 3387ms;
+}
+.bottom-particles .bubble:nth-child(41) {
+  left: 1%;
+  -webkit-animation: blow 12001ms infinite;
+          animation: blow 12001ms infinite;
+  -webkit-animation-delay: 2898ms;
+          animation-delay: 2898ms;
+}
+.bottom-particles .bubble:nth-child(42) {
+  left: 99%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 7513ms;
+          animation-delay: 7513ms;
+}
+.bottom-particles .bubble:nth-child(43) {
+  left: 82%;
+  -webkit-animation: blow 11589ms infinite;
+          animation: blow 11589ms infinite;
+  -webkit-animation-delay: 7570ms;
+          animation-delay: 7570ms;
+}
+.bottom-particles .bubble:nth-child(44) {
+  left: 95%;
+  -webkit-animation: blow 14458ms infinite;
+          animation: blow 14458ms infinite;
+  -webkit-animation-delay: 2405ms;
+          animation-delay: 2405ms;
+}
+.bottom-particles .bubble:nth-child(45) {
+  left: 48%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 4612ms;
+          animation-delay: 4612ms;
+}
+.bottom-particles .bubble:nth-child(46) {
+  left: 74%;
+  -webkit-animation: blow 7324ms infinite;
+          animation: blow 7324ms infinite;
+  -webkit-animation-delay: 6868ms;
+          animation-delay: 6868ms;
+}
+.bottom-particles .bubble:nth-child(47) {
+  left: 33%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 6333ms;
+          animation-delay: 6333ms;
+}
+.bottom-particles .bubble:nth-child(48) {
+  left: 4%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 5042ms;
+          animation-delay: 5042ms;
+}
+.bottom-particles .bubble:nth-child(49) {
+  left: 80%;
+  -webkit-animation: blow 14108ms infinite;
+          animation: blow 14108ms infinite;
+  -webkit-animation-delay: 3979ms;
+          animation-delay: 3979ms;
+}
+.bottom-particles .bubble:nth-child(50) {
+  left: 88%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 4273ms;
+          animation-delay: 4273ms;
+}
+.bottom-particles .bubble:nth-child(51) {
+  left: 13%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 11804ms;
+          animation-delay: 11804ms;
+}
+.bottom-particles .bubble:nth-child(52) {
+  left: 61%;
+  -webkit-animation: blow 13499ms infinite;
+          animation: blow 13499ms infinite;
+  -webkit-animation-delay: 4798ms;
+          animation-delay: 4798ms;
+}
+.bottom-particles .bubble:nth-child(53) {
+  left: 2%;
+  -webkit-animation: blow 12113ms infinite;
+          animation: blow 12113ms infinite;
+  -webkit-animation-delay: 2968ms;
+          animation-delay: 2968ms;
+}
+.bottom-particles .bubble:nth-child(54) {
+  left: 31%;
+  -webkit-animation: blow 12939ms infinite;
+          animation: blow 12939ms infinite;
+  -webkit-animation-delay: 4999ms;
+          animation-delay: 4999ms;
+}
+.bottom-particles .bubble:nth-child(55) {
+  left: 5%;
+  -webkit-animation: blow 12373ms infinite;
+          animation: blow 12373ms infinite;
+  -webkit-animation-delay: 510ms;
+          animation-delay: 510ms;
+}
+.bottom-particles .bubble:nth-child(56) {
+  left: 26%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 8240ms;
+          animation-delay: 8240ms;
+}
+.bottom-particles .bubble:nth-child(57) {
+  left: 23%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 1413ms;
+          animation-delay: 1413ms;
+}
+.bottom-particles .bubble:nth-child(58) {
+  left: 9%;
+  -webkit-animation: blow 5710ms infinite;
+          animation: blow 5710ms infinite;
+  -webkit-animation-delay: 11603ms;
+          animation-delay: 11603ms;
+}
+.bottom-particles .bubble:nth-child(59) {
+  left: 100%;
+  -webkit-animation: blow 10700ms infinite;
+          animation: blow 10700ms infinite;
+  -webkit-animation-delay: 3097ms;
+          animation-delay: 3097ms;
+}
+.bottom-particles .bubble:nth-child(60) {
+  left: 18%;
+  -webkit-animation: blow 11572ms infinite;
+          animation: blow 11572ms infinite;
+  -webkit-animation-delay: 3120ms;
+          animation-delay: 3120ms;
+}
+.bottom-particles .bubble:nth-child(61) {
+  left: 85%;
+  -webkit-animation: blow 6294ms infinite;
+          animation: blow 6294ms infinite;
+  -webkit-animation-delay: 4490ms;
+          animation-delay: 4490ms;
+}
+.bottom-particles .bubble:nth-child(62) {
+  left: 84%;
+  -webkit-animation: blow 9473ms infinite;
+          animation: blow 9473ms infinite;
+  -webkit-animation-delay: 7296ms;
+          animation-delay: 7296ms;
+}
+.bottom-particles .bubble:nth-child(63) {
+  left: 58%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 7035ms;
+          animation-delay: 7035ms;
+}
+.bottom-particles .bubble:nth-child(64) {
+  left: 7%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 9897ms;
+          animation-delay: 9897ms;
+}
+.bottom-particles .bubble:nth-child(65) {
+  left: 32%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 3426ms;
+          animation-delay: 3426ms;
+}
+.bottom-particles .bubble:nth-child(66) {
+  left: 92%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 8975ms;
+          animation-delay: 8975ms;
+}
+.bottom-particles .bubble:nth-child(67) {
+  left: 6%;
+  -webkit-animation: blow 10480ms infinite;
+          animation: blow 10480ms infinite;
+  -webkit-animation-delay: 9774ms;
+          animation-delay: 9774ms;
+}
+.bottom-particles .bubble:nth-child(68) {
+  left: 72%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 4654ms;
+          animation-delay: 4654ms;
+}
+.bottom-particles .bubble:nth-child(69) {
+  left: 8%;
+  -webkit-animation: blow 6204ms infinite;
+          animation: blow 6204ms infinite;
+  -webkit-animation-delay: 1626ms;
+          animation-delay: 1626ms;
+}
+.bottom-particles .bubble:nth-child(70) {
+  left: 43%;
+  -webkit-animation: blow 7532ms infinite;
+          animation: blow 7532ms infinite;
+  -webkit-animation-delay: 400ms;
+          animation-delay: 400ms;
+}
+.bottom-particles .bubble:nth-child(71) {
+  left: 41%;
+  -webkit-animation: blow 14350ms infinite;
+          animation: blow 14350ms infinite;
+  -webkit-animation-delay: 931ms;
+          animation-delay: 931ms;
+}
+.bottom-particles .bubble:nth-child(72) {
+  left: 75%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 10081ms;
+          animation-delay: 10081ms;
+}
+.bottom-particles .bubble:nth-child(73) {
+  left: 8%;
+  -webkit-animation: blow 11684ms infinite;
+          animation: blow 11684ms infinite;
+  -webkit-animation-delay: 3363ms;
+          animation-delay: 3363ms;
+}
+.bottom-particles .bubble:nth-child(74) {
+  left: 34%;
+  -webkit-animation: blow 11807ms infinite;
+          animation: blow 11807ms infinite;
+  -webkit-animation-delay: 144ms;
+          animation-delay: 144ms;
+}
+.bottom-particles .bubble:nth-child(75) {
+  left: 3%;
+  -webkit-animation: blow 14853ms infinite;
+          animation: blow 14853ms infinite;
+  -webkit-animation-delay: 2128ms;
+          animation-delay: 2128ms;
+}
+.bottom-particles .bubble:nth-child(76) {
+  left: 28%;
+  -webkit-animation: blow 5486ms infinite;
+          animation: blow 5486ms infinite;
+  -webkit-animation-delay: 10973ms;
+          animation-delay: 10973ms;
+}
+.bottom-particles .bubble:nth-child(77) {
+  left: 86%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 1873ms;
+          animation-delay: 1873ms;
+}
+.bottom-particles .bubble:nth-child(78) {
+  left: 67%;
+  -webkit-animation: blow 11788ms infinite;
+          animation: blow 11788ms infinite;
+  -webkit-animation-delay: 2802ms;
+          animation-delay: 2802ms;
+}
+.bottom-particles .bubble:nth-child(79) {
+  left: 95%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 11186ms;
+          animation-delay: 11186ms;
+}
+.bottom-particles .bubble:nth-child(80) {
+  left: 11%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 4878ms;
+          animation-delay: 4878ms;
+}
+.bottom-particles .bubble:nth-child(81) {
+  left: 97%;
+  -webkit-animation: blow 13672ms infinite;
+          animation: blow 13672ms infinite;
+  -webkit-animation-delay: 5818ms;
+          animation-delay: 5818ms;
+}
+.bottom-particles .bubble:nth-child(82) {
+  left: 40%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 9401ms;
+          animation-delay: 9401ms;
+}
+.bottom-particles .bubble:nth-child(83) {
+  left: 34%;
+  -webkit-animation: blow 14388ms infinite;
+          animation: blow 14388ms infinite;
+  -webkit-animation-delay: 9651ms;
+          animation-delay: 9651ms;
+}
+.bottom-particles .bubble:nth-child(84) {
+  left: 27%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 6239ms;
+          animation-delay: 6239ms;
+}
+.bottom-particles .bubble:nth-child(85) {
+  left: 82%;
+  -webkit-animation: blow 9706ms infinite;
+          animation: blow 9706ms infinite;
+  -webkit-animation-delay: 6162ms;
+          animation-delay: 6162ms;
+}
+.bottom-particles .bubble:nth-child(86) {
+  left: 81%;
+  -webkit-animation: blow 5300ms infinite;
+          animation: blow 5300ms infinite;
+  -webkit-animation-delay: 1134ms;
+          animation-delay: 1134ms;
+}
+.bottom-particles .bubble:nth-child(87) {
+  left: 3%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 3763ms;
+          animation-delay: 3763ms;
+}
+.bottom-particles .bubble:nth-child(88) {
+  left: 29%;
+  -webkit-animation: blow 10866ms infinite;
+          animation: blow 10866ms infinite;
+  -webkit-animation-delay: 4241ms;
+          animation-delay: 4241ms;
+}
+.bottom-particles .bubble:nth-child(89) {
+  left: 24%;
+  -webkit-animation: blow 7007ms infinite;
+          animation: blow 7007ms infinite;
+  -webkit-animation-delay: 8952ms;
+          animation-delay: 8952ms;
+}
+.bottom-particles .bubble:nth-child(90) {
+  left: 60%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 4526ms;
+          animation-delay: 4526ms;
+}
+.bottom-particles .bubble:nth-child(91) {
+  left: 83%;
+  -webkit-animation: blow 9908ms infinite;
+          animation: blow 9908ms infinite;
+  -webkit-animation-delay: 905ms;
+          animation-delay: 905ms;
+}
+.bottom-particles .bubble:nth-child(92) {
+  left: 33%;
+  -webkit-animation: blow 10028ms infinite;
+          animation: blow 10028ms infinite;
+  -webkit-animation-delay: 7955ms;
+          animation-delay: 7955ms;
+}
+.bottom-particles .bubble:nth-child(93) {
+  left: 92%;
+  -webkit-animation: blow 13922ms infinite;
+          animation: blow 13922ms infinite;
+  -webkit-animation-delay: 3556ms;
+          animation-delay: 3556ms;
+}
+.bottom-particles .bubble:nth-child(94) {
+  left: 76%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 9900ms;
+          animation-delay: 9900ms;
+}
+.bottom-particles .bubble:nth-child(95) {
+  left: 47%;
+  -webkit-animation: blow 9735ms infinite;
+          animation: blow 9735ms infinite;
+  -webkit-animation-delay: 177ms;
+          animation-delay: 177ms;
+}
+.bottom-particles .bubble:nth-child(96) {
+  left: 14%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 33ms;
+          animation-delay: 33ms;
+}
+.bottom-particles .bubble:nth-child(97) {
+  left: 75%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 7455ms;
+          animation-delay: 7455ms;
+}
+.bottom-particles .bubble:nth-child(98) {
+  left: 65%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 306ms;
+          animation-delay: 306ms;
+}
+.bottom-particles .bubble:nth-child(99) {
+  left: 78%;
+  -webkit-animation: blow 10617ms infinite;
+          animation: blow 10617ms infinite;
+  -webkit-animation-delay: 10749ms;
+          animation-delay: 10749ms;
+}
+.bottom-particles .bubble:nth-child(100) {
+  left: 17%;
+  -webkit-animation: blow 9860ms infinite;
+          animation: blow 9860ms infinite;
+  -webkit-animation-delay: 2918ms;
+          animation-delay: 2918ms;
+}
+.bottom-particles .bubble:nth-child(101) {
+  left: 98%;
+  -webkit-animation: blow 8438ms infinite;
+          animation: blow 8438ms infinite;
+  -webkit-animation-delay: 5886ms;
+          animation-delay: 5886ms;
+}
+.bottom-particles .bubble:nth-child(102) {
+  left: 89%;
+  -webkit-animation: blow 6905ms infinite;
+          animation: blow 6905ms infinite;
+  -webkit-animation-delay: 9108ms;
+          animation-delay: 9108ms;
+}
+.bottom-particles .bubble:nth-child(103) {
+  left: 82%;
+  -webkit-animation: blow 10381ms infinite;
+          animation: blow 10381ms infinite;
+  -webkit-animation-delay: 6812ms;
+          animation-delay: 6812ms;
+}
+.bottom-particles .bubble:nth-child(104) {
+  left: 75%;
+  -webkit-animation: blow 7217ms infinite;
+          animation: blow 7217ms infinite;
+  -webkit-animation-delay: 6953ms;
+          animation-delay: 6953ms;
+}
+.bottom-particles .bubble:nth-child(105) {
+  left: 50%;
+  -webkit-animation: blow 10315ms infinite;
+          animation: blow 10315ms infinite;
+  -webkit-animation-delay: 816ms;
+          animation-delay: 816ms;
+}
+.bottom-particles .bubble:nth-child(106) {
+  left: 97%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 5526ms;
+          animation-delay: 5526ms;
+}
+.bottom-particles .bubble:nth-child(107) {
+  left: 57%;
+  -webkit-animation: blow 14650ms infinite;
+          animation: blow 14650ms infinite;
+  -webkit-animation-delay: 11297ms;
+          animation-delay: 11297ms;
+}
+.bottom-particles .bubble:nth-child(108) {
+  left: 61%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 3501ms;
+          animation-delay: 3501ms;
+}
+.bottom-particles .bubble:nth-child(109) {
+  left: 45%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 1773ms;
+          animation-delay: 1773ms;
+}
+.bottom-particles .bubble:nth-child(110) {
+  left: 96%;
+  -webkit-animation: blow 10991ms infinite;
+          animation: blow 10991ms infinite;
+  -webkit-animation-delay: 1476ms;
+          animation-delay: 1476ms;
+}
+.bottom-particles .bubble:nth-child(111) {
+  left: 45%;
+  -webkit-animation: blow 7681ms infinite;
+          animation: blow 7681ms infinite;
+  -webkit-animation-delay: 2419ms;
+          animation-delay: 2419ms;
+}
+.bottom-particles .bubble:nth-child(112) {
+  left: 20%;
+  -webkit-animation: blow 7449ms infinite;
+          animation: blow 7449ms infinite;
+  -webkit-animation-delay: 2094ms;
+          animation-delay: 2094ms;
+}
+.bottom-particles .bubble:nth-child(113) {
+  left: 21%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 4652ms;
+          animation-delay: 4652ms;
+}
+.bottom-particles .bubble:nth-child(114) {
+  left: 76%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 828ms;
+          animation-delay: 828ms;
+}
+.bottom-particles .bubble:nth-child(115) {
+  left: 77%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 7388ms;
+          animation-delay: 7388ms;
+}
+.bottom-particles .bubble:nth-child(116) {
+  left: 4%;
+  -webkit-animation: blow 6905ms infinite;
+          animation: blow 6905ms infinite;
+  -webkit-animation-delay: 9175ms;
+          animation-delay: 9175ms;
+}
+.bottom-particles .bubble:nth-child(117) {
+  left: 96%;
+  -webkit-animation: blow 7079ms infinite;
+          animation: blow 7079ms infinite;
+  -webkit-animation-delay: 7406ms;
+          animation-delay: 7406ms;
+}
+.bottom-particles .bubble:nth-child(118) {
+  left: 17%;
+  -webkit-animation: blow 5701ms infinite;
+          animation: blow 5701ms infinite;
+  -webkit-animation-delay: 7614ms;
+          animation-delay: 7614ms;
+}
+.bottom-particles .bubble:nth-child(119) {
+  left: 25%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 10605ms;
+          animation-delay: 10605ms;
+}
+.bottom-particles .bubble:nth-child(120) {
+  left: 100%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 3544ms;
+          animation-delay: 3544ms;
+}
+.bottom-particles .bubble:nth-child(121) {
+  left: 2%;
+  -webkit-animation: blow 8026ms infinite;
+          animation: blow 8026ms infinite;
+  -webkit-animation-delay: 11885ms;
+          animation-delay: 11885ms;
+}
+.bottom-particles .bubble:nth-child(122) {
+  left: 65%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 9961ms;
+          animation-delay: 9961ms;
+}
+.bottom-particles .bubble:nth-child(123) {
+  left: 79%;
+  -webkit-animation: blow 12583ms infinite;
+          animation: blow 12583ms infinite;
+  -webkit-animation-delay: 1477ms;
+          animation-delay: 1477ms;
+}
+.bottom-particles .bubble:nth-child(124) {
+  left: 95%;
+  -webkit-animation: blow 5928ms infinite;
+          animation: blow 5928ms infinite;
+  -webkit-animation-delay: 1165ms;
+          animation-delay: 1165ms;
+}
+.bottom-particles .bubble:nth-child(125) {
+  left: 25%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 9412ms;
+          animation-delay: 9412ms;
+}
+.bottom-particles .bubble:nth-child(126) {
+  left: 49%;
+  -webkit-animation: blow 13354ms infinite;
+          animation: blow 13354ms infinite;
+  -webkit-animation-delay: 3137ms;
+          animation-delay: 3137ms;
+}
+.bottom-particles .bubble:nth-child(127) {
+  left: 26%;
+  -webkit-animation: blow 11265ms infinite;
+          animation: blow 11265ms infinite;
+  -webkit-animation-delay: 1392ms;
+          animation-delay: 1392ms;
+}
+.bottom-particles .bubble:nth-child(128) {
+  left: 60%;
+  -webkit-animation: blow 14768ms infinite;
+          animation: blow 14768ms infinite;
+  -webkit-animation-delay: 9453ms;
+          animation-delay: 9453ms;
+}
+.bottom-particles .bubble:nth-child(129) {
+  left: 13%;
+  -webkit-animation: blow 14551ms infinite;
+          animation: blow 14551ms infinite;
+  -webkit-animation-delay: 7608ms;
+          animation-delay: 7608ms;
+}
+.bottom-particles .bubble:nth-child(130) {
+  left: 1%;
+  -webkit-animation: blow 12650ms infinite;
+          animation: blow 12650ms infinite;
+  -webkit-animation-delay: 10485ms;
+          animation-delay: 10485ms;
+}
+.bottom-particles .bubble:nth-child(131) {
+  left: 15%;
+  -webkit-animation: blow 12555ms infinite;
+          animation: blow 12555ms infinite;
+  -webkit-animation-delay: 7765ms;
+          animation-delay: 7765ms;
+}
+.bottom-particles .bubble:nth-child(132) {
+  left: 97%;
+  -webkit-animation: blow 11885ms infinite;
+          animation: blow 11885ms infinite;
+  -webkit-animation-delay: 4662ms;
+          animation-delay: 4662ms;
+}
+.bottom-particles .bubble:nth-child(133) {
+  left: 40%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 3860ms;
+          animation-delay: 3860ms;
+}
+.bottom-particles .bubble:nth-child(134) {
+  left: 28%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 4307ms;
+          animation-delay: 4307ms;
+}
+.bottom-particles .bubble:nth-child(135) {
+  left: 91%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 2965ms;
+          animation-delay: 2965ms;
+}
+.bottom-particles .bubble:nth-child(136) {
+  left: 98%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 5540ms;
+          animation-delay: 5540ms;
+}
+.bottom-particles .bubble:nth-child(137) {
+  left: 79%;
+  -webkit-animation: blow 11479ms infinite;
+          animation: blow 11479ms infinite;
+  -webkit-animation-delay: 735ms;
+          animation-delay: 735ms;
+}
+.bottom-particles .bubble:nth-child(138) {
+  left: 85%;
+  -webkit-animation: blow 5628ms infinite;
+          animation: blow 5628ms infinite;
+  -webkit-animation-delay: 9147ms;
+          animation-delay: 9147ms;
+}
+.bottom-particles .bubble:nth-child(139) {
+  left: 99%;
+  -webkit-animation: blow 8614ms infinite;
+          animation: blow 8614ms infinite;
+  -webkit-animation-delay: 5262ms;
+          animation-delay: 5262ms;
+}
+.bottom-particles .bubble:nth-child(140) {
+  left: 20%;
+  -webkit-animation: blow 5954ms infinite;
+          animation: blow 5954ms infinite;
+  -webkit-animation-delay: 11632ms;
+          animation-delay: 11632ms;
+}
+.bottom-particles .bubble:nth-child(141) {
+  left: 35%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 1153ms;
+          animation-delay: 1153ms;
+}
+.bottom-particles .bubble:nth-child(142) {
+  left: 2%;
+  -webkit-animation: blow 7961ms infinite;
+          animation: blow 7961ms infinite;
+  -webkit-animation-delay: 839ms;
+          animation-delay: 839ms;
+}
+.bottom-particles .bubble:nth-child(143) {
+  left: 90%;
+  -webkit-animation: blow 6313ms infinite;
+          animation: blow 6313ms infinite;
+  -webkit-animation-delay: 11483ms;
+          animation-delay: 11483ms;
+}
+.bottom-particles .bubble:nth-child(144) {
+  left: 22%;
+  -webkit-animation: blow 9087ms infinite;
+          animation: blow 9087ms infinite;
+  -webkit-animation-delay: 5541ms;
+          animation-delay: 5541ms;
+}
+.bottom-particles .bubble:nth-child(145) {
+  left: 54%;
+  -webkit-animation: blow 5843ms infinite;
+          animation: blow 5843ms infinite;
+  -webkit-animation-delay: 4949ms;
+          animation-delay: 4949ms;
+}
+.bottom-particles .bubble:nth-child(146) {
+  left: 35%;
+  -webkit-animation: blow 13180ms infinite;
+          animation: blow 13180ms infinite;
+  -webkit-animation-delay: 10893ms;
+          animation-delay: 10893ms;
+}
+.bottom-particles .bubble:nth-child(147) {
+  left: 20%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 9295ms;
+          animation-delay: 9295ms;
+}
+.bottom-particles .bubble:nth-child(148) {
+  left: 21%;
+  -webkit-animation: blow 9958ms infinite;
+          animation: blow 9958ms infinite;
+  -webkit-animation-delay: 7678ms;
+          animation-delay: 7678ms;
+}
+.bottom-particles .bubble:nth-child(149) {
+  left: 59%;
+  -webkit-animation: blow 12044ms infinite;
+          animation: blow 12044ms infinite;
+  -webkit-animation-delay: 9778ms;
+          animation-delay: 9778ms;
+}
+.bottom-particles .bubble:nth-child(150) {
+  left: 44%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 2041ms;
+          animation-delay: 2041ms;
+}
+.bottom-particles .bubble:nth-child(151) {
+  left: 11%;
+  -webkit-animation: blow 14516ms infinite;
+          animation: blow 14516ms infinite;
+  -webkit-animation-delay: 9999ms;
+          animation-delay: 9999ms;
+}
+.bottom-particles .bubble:nth-child(152) {
+  left: 71%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 4264ms;
+          animation-delay: 4264ms;
+}
+.bottom-particles .bubble:nth-child(153) {
+  left: 78%;
+  -webkit-animation: blow 12744ms infinite;
+          animation: blow 12744ms infinite;
+  -webkit-animation-delay: 9084ms;
+          animation-delay: 9084ms;
+}
+.bottom-particles .bubble:nth-child(154) {
+  left: 8%;
+  -webkit-animation: blow 13810ms infinite;
+          animation: blow 13810ms infinite;
+  -webkit-animation-delay: 1468ms;
+          animation-delay: 1468ms;
+}
+.bottom-particles .bubble:nth-child(155) {
+  left: 69%;
+  -webkit-animation: blow 6244ms infinite;
+          animation: blow 6244ms infinite;
+  -webkit-animation-delay: 4679ms;
+          animation-delay: 4679ms;
+}
+.bottom-particles .bubble:nth-child(156) {
+  left: 80%;
+  -webkit-animation: blow 12425ms infinite;
+          animation: blow 12425ms infinite;
+  -webkit-animation-delay: 10782ms;
+          animation-delay: 10782ms;
+}
+.bottom-particles .bubble:nth-child(157) {
+  left: 20%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 5759ms;
+          animation-delay: 5759ms;
+}
+.bottom-particles .bubble:nth-child(158) {
+  left: 17%;
+  -webkit-animation: blow 13437ms infinite;
+          animation: blow 13437ms infinite;
+  -webkit-animation-delay: 7004ms;
+          animation-delay: 7004ms;
+}
+.bottom-particles .bubble:nth-child(159) {
+  left: 34%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 10140ms;
+          animation-delay: 10140ms;
+}
+.bottom-particles .bubble:nth-child(160) {
+  left: 91%;
+  -webkit-animation: blow 10852ms infinite;
+          animation: blow 10852ms infinite;
+  -webkit-animation-delay: 3501ms;
+          animation-delay: 3501ms;
+}
+.bottom-particles .bubble:nth-child(161) {
+  left: 20%;
+  -webkit-animation: blow 11662ms infinite;
+          animation: blow 11662ms infinite;
+  -webkit-animation-delay: 11605ms;
+          animation-delay: 11605ms;
+}
+.bottom-particles .bubble:nth-child(162) {
+  left: 39%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 11147ms;
+          animation-delay: 11147ms;
+}
+.bottom-particles .bubble:nth-child(163) {
+  left: 63%;
+  -webkit-animation: blow 14610ms infinite;
+          animation: blow 14610ms infinite;
+  -webkit-animation-delay: 10202ms;
+          animation-delay: 10202ms;
+}
+.bottom-particles .bubble:nth-child(164) {
+  left: 83%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 4816ms;
+          animation-delay: 4816ms;
+}
+.bottom-particles .bubble:nth-child(165) {
+  left: 65%;
+  -webkit-animation: blow 10864ms infinite;
+          animation: blow 10864ms infinite;
+  -webkit-animation-delay: 394ms;
+          animation-delay: 394ms;
+}
+.bottom-particles .bubble:nth-child(166) {
+  left: 11%;
+  -webkit-animation: blow 7546ms infinite;
+          animation: blow 7546ms infinite;
+  -webkit-animation-delay: 10236ms;
+          animation-delay: 10236ms;
+}
+.bottom-particles .bubble:nth-child(167) {
+  left: 84%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 8091ms;
+          animation-delay: 8091ms;
+}
+.bottom-particles .bubble:nth-child(168) {
+  left: 20%;
+  -webkit-animation: blow 13301ms infinite;
+          animation: blow 13301ms infinite;
+  -webkit-animation-delay: 9463ms;
+          animation-delay: 9463ms;
+}
+.bottom-particles .bubble:nth-child(169) {
+  left: 15%;
+  -webkit-animation: blow 14050ms infinite;
+          animation: blow 14050ms infinite;
+  -webkit-animation-delay: 3437ms;
+          animation-delay: 3437ms;
+}
+.bottom-particles .bubble:nth-child(170) {
+  left: 63%;
+  -webkit-animation: blow 10560ms infinite;
+          animation: blow 10560ms infinite;
+  -webkit-animation-delay: 315ms;
+          animation-delay: 315ms;
+}
+.bottom-particles .bubble:nth-child(171) {
+  left: 66%;
+  -webkit-animation: blow 10205ms infinite;
+          animation: blow 10205ms infinite;
+  -webkit-animation-delay: 275ms;
+          animation-delay: 275ms;
+}
+.bottom-particles .bubble:nth-child(172) {
+  left: 70%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 2737ms;
+          animation-delay: 2737ms;
+}
+.bottom-particles .bubble:nth-child(173) {
+  left: 92%;
+  -webkit-animation: blow 6500ms infinite;
+          animation: blow 6500ms infinite;
+  -webkit-animation-delay: 7483ms;
+          animation-delay: 7483ms;
+}
+.bottom-particles .bubble:nth-child(174) {
+  left: 47%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 4290ms;
+          animation-delay: 4290ms;
+}
+.bottom-particles .bubble:nth-child(175) {
+  left: 88%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 9423ms;
+          animation-delay: 9423ms;
+}
+.bottom-particles .bubble:nth-child(176) {
+  left: 64%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 532ms;
+          animation-delay: 532ms;
+}
+.bottom-particles .bubble:nth-child(177) {
+  left: 1%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 7766ms;
+          animation-delay: 7766ms;
+}
+.bottom-particles .bubble:nth-child(178) {
+  left: 6%;
+  -webkit-animation: blow 11570ms infinite;
+          animation: blow 11570ms infinite;
+  -webkit-animation-delay: 9092ms;
+          animation-delay: 9092ms;
+}
+.bottom-particles .bubble:nth-child(179) {
+  left: 80%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 10095ms;
+          animation-delay: 10095ms;
+}
+.bottom-particles .bubble:nth-child(180) {
+  left: 6%;
+  -webkit-animation: blow 9257ms infinite;
+          animation: blow 9257ms infinite;
+  -webkit-animation-delay: 2660ms;
+          animation-delay: 2660ms;
+}
+.bottom-particles .bubble:nth-child(181) {
+  left: 72%;
+  -webkit-animation: blow 8745ms infinite;
+          animation: blow 8745ms infinite;
+  -webkit-animation-delay: 11689ms;
+          animation-delay: 11689ms;
+}
+.bottom-particles .bubble:nth-child(182) {
+  left: 72%;
+  -webkit-animation: blow 6471ms infinite;
+          animation: blow 6471ms infinite;
+  -webkit-animation-delay: 5282ms;
+          animation-delay: 5282ms;
+}
+.bottom-particles .bubble:nth-child(183) {
+  left: 32%;
+  -webkit-animation: blow 13596ms infinite;
+          animation: blow 13596ms infinite;
+  -webkit-animation-delay: 10615ms;
+          animation-delay: 10615ms;
+}
+.bottom-particles .bubble:nth-child(184) {
+  left: 46%;
+  -webkit-animation: blow 9991ms infinite;
+          animation: blow 9991ms infinite;
+  -webkit-animation-delay: 9440ms;
+          animation-delay: 9440ms;
+}
+.bottom-particles .bubble:nth-child(185) {
+  left: 24%;
+  -webkit-animation: blow 8012ms infinite;
+          animation: blow 8012ms infinite;
+  -webkit-animation-delay: 5540ms;
+          animation-delay: 5540ms;
+}
+.bottom-particles .bubble:nth-child(186) {
+  left: 81%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 1637ms;
+          animation-delay: 1637ms;
+}
+.bottom-particles .bubble:nth-child(187) {
+  left: 22%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 10515ms;
+          animation-delay: 10515ms;
+}
+.bottom-particles .bubble:nth-child(188) {
+  left: 79%;
+  -webkit-animation: blow 6133ms infinite;
+          animation: blow 6133ms infinite;
+  -webkit-animation-delay: 9928ms;
+          animation-delay: 9928ms;
+}
+.bottom-particles .bubble:nth-child(189) {
+  left: 3%;
+  -webkit-animation: blow 10799ms infinite;
+          animation: blow 10799ms infinite;
+  -webkit-animation-delay: 1469ms;
+          animation-delay: 1469ms;
+}
+.bottom-particles .bubble:nth-child(190) {
+  left: 96%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 6325ms;
+          animation-delay: 6325ms;
+}
+.bottom-particles .bubble:nth-child(191) {
+  left: 22%;
+  -webkit-animation: blow 13262ms infinite;
+          animation: blow 13262ms infinite;
+  -webkit-animation-delay: 10249ms;
+          animation-delay: 10249ms;
+}
+.bottom-particles .bubble:nth-child(192) {
+  left: 4%;
+  -webkit-animation: blow 10696ms infinite;
+          animation: blow 10696ms infinite;
+  -webkit-animation-delay: 5690ms;
+          animation-delay: 5690ms;
+}
+.bottom-particles .bubble:nth-child(193) {
+  left: 52%;
+  -webkit-animation: blow 14483ms infinite;
+          animation: blow 14483ms infinite;
+  -webkit-animation-delay: 4864ms;
+          animation-delay: 4864ms;
+}
+.bottom-particles .bubble:nth-child(194) {
+  left: 75%;
+  -webkit-animation: blow 5000ms infinite;
+          animation: blow 5000ms infinite;
+  -webkit-animation-delay: 3820ms;
+          animation-delay: 3820ms;
+}
+.bottom-particles .bubble:nth-child(195) {
+  left: 23%;
+  -webkit-animation: blow 11033ms infinite;
+          animation: blow 11033ms infinite;
+  -webkit-animation-delay: 5533ms;
+          animation-delay: 5533ms;
+}
+.bottom-particles .bubble:nth-child(196) {
+  left: 6%;
+  -webkit-animation: blow 12604ms infinite;
+          animation: blow 12604ms infinite;
+  -webkit-animation-delay: 7605ms;
+          animation-delay: 7605ms;
+}
+.bottom-particles .bubble:nth-child(197) {
+  left: 22%;
+  -webkit-animation: blow 14465ms infinite;
+          animation: blow 14465ms infinite;
+  -webkit-animation-delay: 5063ms;
+          animation-delay: 5063ms;
+}
+.bottom-particles .bubble:nth-child(198) {
+  left: 5%;
+  -webkit-animation: blow 6513ms infinite;
+          animation: blow 6513ms infinite;
+  -webkit-animation-delay: 10387ms;
+          animation-delay: 10387ms;
+}
+.bottom-particles .bubble:nth-child(199) {
+  left: 59%;
+  -webkit-animation: blow 8937ms infinite;
+          animation: blow 8937ms infinite;
+  -webkit-animation-delay: 1698ms;
+          animation-delay: 1698ms;
+}
+.bottom-particles .bubble:nth-child(200) {
+  left: 32%;
+  -webkit-animation: blow 10096ms infinite;
+          animation: blow 10096ms infinite;
+  -webkit-animation-delay: 5260ms;
+          animation-delay: 5260ms;
+}
+
+@-webkit-keyframes blow {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(0, -100vh) scale(0.2);
+            transform: translate(0, -100vh) scale(0.2);
+  }
+}
+
+@keyframes blow {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(0, -100vh) scale(0.2);
+            transform: translate(0, -100vh) scale(0.2);
+  }
+}
