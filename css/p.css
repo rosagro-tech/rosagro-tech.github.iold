@@ -7,6 +7,8 @@ body {
           animation: changeBg 60s infinite alternate;
 }
 
+img{width: 100%;}
+
 @-webkit-keyframes changeBg {
   0% {
     background: #556270;
