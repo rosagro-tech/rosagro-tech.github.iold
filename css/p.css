@@ -6,6 +6,8 @@ body {
   -webkit-animation: changeBg 60s infinite alternate;
           animation: changeBg 60s infinite alternate;
 }
+::-webkit-scrollbar{
+    width: 0px;}
 
 img{width: 100%;}
 
